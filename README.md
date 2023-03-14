@@ -42,9 +42,9 @@ Other encode options depend on the format.
   - includeOffset - boolean (default true) include the offset, such as 'Z' or '-04:00'
   - extendedZone - boolean (default false) add the time zone format extension
 - `SQL` - accepts all `toSQL` method options
-  -includeZone - boolean (default false) include the zone, such as 'America/New_York'. Overrides includeOffset.
-  -includeOffset - boolean (default true) include the offset, such as 'Z' or '-04:00'
-  -includeOffsetSpace - boolean (default true) include the space between the time and the offset, such as '05:15:16.345 -04:00'
+  - includeZone - boolean (default false) include the zone, such as 'America/New_York'. Overrides includeOffset.
+  - includeOffset - boolean (default true) include the offset, such as 'Z' or '-04:00'
+  - includeOffsetSpace - boolean (default true) include the space between the time and the offset, such as '05:15:16.345 -04:00'
 - Custom format - accepts all `toFormat` method options to override the configuration options on this DateTime
 
 ## Example
