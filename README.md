@@ -9,7 +9,7 @@ io-ts codec types for dates, datetimes using [luxon](https://moment.github.io/lu
 
 `npm i io-ts-datetime`
 
-**Note**. [`luxon`](https://moment.github.io/luxon), [`fp-ts`](https://github.com/gcanti/fp-ts), and [`io-ts`](https://github.com/gcanti/io-ts) are peer dependencies for `io-ts-parser-types`
+**Note**. [`luxon`](https://moment.github.io/luxon), [`fp-ts`](https://github.com/gcanti/fp-ts), and [`io-ts`](https://github.com/gcanti/io-ts) are peer dependencies for `io-ts-datetime`
 
 # Usage
 
