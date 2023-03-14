@@ -16,7 +16,10 @@ io-ts codec types for dates, datetimes using [luxon](https://moment.github.io/lu
 ## dateTimeFromFormat(decodeOptions, encodeOptions)
 
 returns a codec that decodes `DateTime` from a string and encodes back to a string.
+
 When `decodeOptions` or `encodeOptions` are ommited the ISO DateTime format will be used.
+
+When `decodeOptions` set but `encodeOptions` are omitted will encode into the same format as set in decodeOptions
 
 ### decodeOptions
 
