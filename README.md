@@ -58,9 +58,9 @@ const dateTime = ISOCodec.decode("2023-03-14T14:25:22.663-04:00").right;
 const isoString = ISOCodec.encode(dateTime);
 // "2023-03-14T14:25:22.663-04:00"
 
-const codec = dateTimeFromFormat({ format: "SQL" }, { format: "ISODate" });
-const dateTime = ISOCodec.decode("2023-03-14 14:25:22").right;
-const isoDateString = ISOCodec.encode(dateTime);
+const SQLCodec = dateTimeFromFormat({ format: "SQL" }, { format: "ISODate" });
+const dateTime = SQLCodec.decode("2023-03-14 14:25:22").right;
+const isoDateString = SQLCodec.encode(dateTime);
 // "2023-03-14"
 ```
 
